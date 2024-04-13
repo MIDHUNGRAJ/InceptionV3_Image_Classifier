@@ -3,7 +3,7 @@ import torch
 from pathlib import Path
 from PIL import Image
 import torchvision
-from imgagenet_classes import imgnet_classes_path
+from imagenet_classes import imgnet_classes_path
 
 
 # Check if CUDA is available, else use CPU
