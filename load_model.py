@@ -6,6 +6,7 @@ import torchvision
 from imagenet_classes import imgnet_classes_path
 
 
+
 # Check if CUDA is available, else use CPU
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
